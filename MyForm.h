@@ -136,7 +136,7 @@ namespace ProjectProvodnick {
 #pragma endregion
 	private: System::Void EntButton_Click(System::Object^ sender, System::EventArgs^ e) {
 		std::string LogPass, Log, Pass;
-		std::ifstream in("Q:\\Учеба\\Прога\\ProjectProvodnick\\Logpass.txt");
+		std::ifstream in("C:\\Users\\User\\source\\repos\\LaitMax\\ConAccApp\\Logpass.txt");
 		if (in.is_open())
 		{
 			getline(in, LogPass);
